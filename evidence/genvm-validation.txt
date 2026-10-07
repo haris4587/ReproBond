@@ -1,9 +1,11 @@
+genvm-lint check contracts/reprobond.py
 
 ✓ Lint passed (3 checks)
 ✓ Validation passed
   Contract: ReproBond
   Methods: 10 (4 view, 6 write)
-  ℹ py-genlayer: a newer runner is available (1zr6nqk597d97kg0dyxg0shhrykx5v02zjgnyrajapy4wlqvfvwh). See https://github.com/genlayerlabs/genvm/releases for changes.
+
+genvm-lint typecheck contracts/reprobond.py
 Type checking reprobond.py...
 
 ✓ No type errors found

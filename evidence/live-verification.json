@@ -1,0 +1,73 @@
+{
+  "network": "Studionet",
+  "chain_id": 61999,
+  "execution_mode": "Normal (Full Consensus)",
+  "source_commit": "de0670da4f5b36769e5698157be9a5aa060da2a7",
+  "contract": "0x3388D50Be10c907e55382C798783DB4012fE4aA2",
+  "source_sha256": "614795a209d50e4e6d8abb716d474f56e6439bb0ea9121d8b43346dced452668",
+  "source_readback_byte_identical": true,
+  "source_bytes": 17323,
+  "researcher": "0x5fadd4bfe32A7aF03a405670fD4655EdaF2c67E3",
+  "bounty_id": 0,
+  "reward_wei": 1000000000000000000,
+  "outcome": "FAILED_TO_REPLICATE",
+  "methodology_score": 90,
+  "evidence_quality_score": 85,
+  "material_deviations": [],
+  "status": "AWARDED",
+  "decision_hash": "e013e95075c3c06de585b363d17a03f11885151e945fcce75cb11517e4e54122",
+  "transactions": {
+    "deployment": {
+      "hash": "0x6c5520e612d5b641ec7bb6b71f479ca3d6ae26611a7257e35dec1e4dcab069ec",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "url": "https://explorer-studio.genlayer.com/tx/0x6c5520e612d5b641ec7bb6b71f479ca3d6ae26611a7257e35dec1e4dcab069ec"
+    },
+    "create_bounty": {
+      "hash": "0xb4236730cec819139cc05b7a8c36ae5732e661fe62db897470416d0ccbd3b68e",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "url": "https://explorer-studio.genlayer.com/tx/0xb4236730cec819139cc05b7a8c36ae5732e661fe62db897470416d0ccbd3b68e"
+    },
+    "authorize_package": {
+      "hash": "0xfff5c2e9c8806ffe9aee47f58bb42307f6616844754c58b55fa1dc73a2e09b18",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "url": "https://explorer-studio.genlayer.com/tx/0xfff5c2e9c8806ffe9aee47f58bb42307f6616844754c58b55fa1dc73a2e09b18"
+    },
+    "submit": {
+      "hash": "0xe38de343ca9a7b314154dc148be8534a275831f0315a64220942503f778b8d86",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "url": "https://explorer-studio.genlayer.com/tx/0xe38de343ca9a7b314154dc148be8534a275831f0315a64220942503f778b8d86"
+    },
+    "adjudicate_next": {
+      "hash": "0x5c883f2ff150cb72d3c8f33d2828e4b336318695fe092ec9cc2b74c497a4d40e",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "url": "https://explorer-studio.genlayer.com/tx/0x5c883f2ff150cb72d3c8f33d2828e4b336318695fe092ec9cc2b74c497a4d40e"
+    },
+    "withdraw": {
+      "hash": "0xea648c87d629ab5042a7ee5b366fc1e93cb432f0f9f322dc66f33693b358caf7",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "url": "https://explorer-studio.genlayer.com/tx/0xea648c87d629ab5042a7ee5b366fc1e93cb432f0f9f322dc66f33693b358caf7"
+    },
+    "payout": {
+      "hash": "0x7555160b48454abf86b2b328fe34a3b1cf7006f962d06675698f3e32a88de972",
+      "status": "FINALIZED",
+      "execution": "Send",
+      "url": "https://explorer-studio.genlayer.com/tx/0x7555160b48454abf86b2b328fe34a3b1cf7006f962d06675698f3e32a88de972"
+    }
+  },
+  "recipient_balance_GEN": 1,
+  "recipient_credit_after_withdrawal_wei": 0,
+  "contract_balance_GEN": 0,
+  "accounting": {
+    "credits": 0,
+    "deposited": 1000000000000000000,
+    "escrow": 0,
+    "withdrawn": 1000000000000000000
+  },
+  "limitations": "Synthetic educational evidence and simulated Studio faucet GEN; not a real laboratory replication or mainnet payment."
+}

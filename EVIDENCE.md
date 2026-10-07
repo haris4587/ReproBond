@@ -6,16 +6,25 @@
 - `evidence/local-tests.txt`: complete local test result.
 - `evidence/genvm-validation.txt`: official lint, SDK validation and typecheck result.
 - `evidence/deployment-receipt.txt`: explorer's finalized deployment receipt and execution details.
-- Finalized deployment screenshot: captured and supplied with the conversation; binary GitHub upload failed.
-- `evidence/deployed-source.py`: complete explorer Code readback, identical to canonical source.
-- `evidence/finalized-accounting.txt`: finalized accounting; all amounts zero.
-- `evidence/demo-inputs.json`: prepared synthetic demo inputs; not submitted.
-- Pending create_bounty screenshot: captured and supplied with the conversation; binary GitHub upload failed.
+- `evidence/deployment-finalized.jpg`: finalized deployment screenshot.
+- `evidence/deployed-source.py`: full byte-identical deployed source readback.
+- `evidence/demo-inputs.json`: exact executed demo inputs and source commit.
+- `evidence/create-bounty-receipt.txt`, `authorization-receipt.txt`, `submission-receipt.txt`: finalized successful funding, binding and submission.
+- `evidence/adjudication-receipt.txt`, `adjudication-finalized.jpg`: finalized negative replication verdict and validator votes.
+- `evidence/finalized-bounty.json`: AWARDED state, scores, manifest, terms and decision hash.
+- `evidence/hash-verification.json`: independent recomputation of terms/package/decision hashes.
+- `evidence/credit-before-withdrawal.txt`, `credit-after-withdrawal.txt`: finalized 1 GEN credit before withdrawal and zero afterward.
+- `evidence/withdrawal-receipt.txt`: finalized successful withdrawal emission.
+- `evidence/payout-receipt.txt`, `payout-finalized.jpg`: separate finalized 1 GEN transfer to researcher.
+- `evidence/recipient-balance.txt`: explorer confirms recipient balance 1 GEN.
+- `evidence/finalized-accounting.json`: final conservation, zero escrow/credits, 1 GEN withdrawn.
+- `evidence/live-verification.json`: machine-readable deployment, transactions, source binding and final results.
+- `evidence/demo-handoff.jpg`, `finalized-accounting.txt`: historical pre-demo records, superseded by final records above.
 - Canonical source SHA-256: `614795a209d50e4e6d8abb716d474f56e6439bb0ea9121d8b43346dced452668`.
 - Published source/fixture commit: `de0670da4f5b36769e5698157be9a5aa060da2a7`.
 - Local verification: **58 tests passed**, official lint and SDK validation passed, SDK typecheck passed.
 - Deployment: **FINALIZED / SUCCESS**, Normal Full Consensus, five initial validators.
-- Live bounty/adjudication/withdrawal/payout: **not executed**, blocked by automatic approval review at the payable creation step; see DEPLOYMENT.md.
+- Live bounty/adjudication/withdrawal/payout: **all finalized**. Negative replication rewarded; 1 simulated GEN delivered to the researcher and verified in explorer balance.
 
 The demonstrator tests scientific comparison of synthetic data under explicit synthetic terms. It is not verification of a real paper, laboratory experiment or researcher's identity.
 

@@ -1,0 +1,3 @@
+State: Finalized
+Researcher: 0x5fadd4bfe32A7aF03a405670fD4655EdaF2c67E3
+Credit (wei): 0

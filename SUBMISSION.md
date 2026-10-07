@@ -1,4 +1,4 @@
-# Submission draft — not ready for submission until live verification
+# ReproBond submission package
 
 **Project name:** ReproBond
 
@@ -16,7 +16,7 @@
 
 **Deployment transaction:** `0x6c5520e612d5b641ec7bb6b71f479ca3d6ae26611a7257e35dec1e4dcab069ec` — FINALIZED / SUCCESS, Normal (Full Consensus), five validators.
 
-**Live bounty transactions:** absent; automatic approval review blocked the payable creation step.
+**Live bounty transactions:** all finalized; see the transaction table in [DEPLOYMENT.md](DEPLOYMENT.md) and [evidence/live-verification.json](evidence/live-verification.json).
 
 **Source commit:** `de0670da4f5b36769e5698157be9a5aa060da2a7` — published on canonical main, deployed source readback byte-identical.
 
@@ -24,25 +24,54 @@
 
 **Local verification:** 58 SDK-backed tests passed; official GenVM lint, validation and SDK typecheck passed.
 
-**Live verification:** Full Consensus deployment verified; funded bounty, qualitative adjudication, reward credits and payout delivery remain pending. Not ready for final submission.
+**Live verification:** Completed Full Consensus funded bounty → signer-bound evidence → authenticated submission → FAILED_TO_REPLICATE (90 methodology, 85 quality) → AWARDED → finalized withdrawal → finalized 1 GEN child transfer. Recipient balance 1 GEN, remaining credit 0, contract balance 0; all accounting conserved. Synthetic educational reports and simulated Studio GEN.
 
 **Evidence:** local test log, GenVM check log and synthetic original/positive/negative reports in `evidence/`. Public commit-pinned fixture URLs are published at the source commit. `scripts/prepare_demo.py` produces their exact inputs.
 
 **Why GenLayer is central:** scientific methodology comparison requires qualitative interpretation of locked protocol and evidence; validators independently reproduce that judgment. Reward recipients and accounting are deterministic and cannot be selected by the LLM.
 
-**Prepared files:**
+**Final files pushed:**
 
-- `contracts/reprobond.py`
-- `tests/test_reprobond.py`
-- `evidence/fixtures/original.md`
-- `evidence/fixtures/negative-replication.md`
-- `evidence/fixtures/positive-replication.md`
-- `evidence/local-tests.txt`
-- `evidence/genvm-validation.txt`
-- `scripts/prepare_demo.py`
 - `.github/workflows/check.yml`
 - `.gitignore`
+- `DEPLOYMENT.md`
+- `EVIDENCE.md`
+- `README.md`
+- `SECURITY.md`
+- `SUBMISSION.md`
+- `contracts/reprobond.py`
+- `evidence/adjudication-finalized.jpg`
+- `evidence/adjudication-receipt.txt`
+- `evidence/authorization-receipt.txt`
+- `evidence/create-bounty-receipt.txt`
+- `evidence/credit-after-withdrawal.txt`
+- `evidence/credit-before-withdrawal.txt`
+- `evidence/demo-handoff.jpg`
+- `evidence/demo-inputs.json`
+- `evidence/deployed-source.py`
+- `evidence/deployment-finalized.jpg`
+- `evidence/deployment-receipt.txt`
+- `evidence/finalized-accounting.json`
+- `evidence/finalized-accounting.txt`
+- `evidence/finalized-bounty.json`
+- `evidence/fixtures/negative-replication.md`
+- `evidence/fixtures/original.md`
+- `evidence/fixtures/positive-replication.md`
+- `evidence/genvm-validation.txt`
+- `evidence/hash-verification.json`
+- `evidence/live-verification.json`
+- `evidence/local-tests.txt`
+- `evidence/payout-finalized.jpg`
+- `evidence/payout-receipt.txt`
+- `evidence/recipient-balance.txt`
+- `evidence/submission-receipt.txt`
+- `evidence/withdrawal-receipt.txt`
 - `requirements-dev.txt`
-- `README.md`, `SECURITY.md`, `DEPLOYMENT.md`, `EVIDENCE.md`, `SUBMISSION.md`
+- `scripts/prepare_demo.py`
+- `tests/test_reprobond.py`
 
-**Publication status:** Implementation and fixtures published to canonical main following explicit user approval. Deployment receipt, exact source readback and pending demo inputs are recorded in evidence/. Screenshots are supplied in the conversation because GitHub binary upload failed. See DEPLOYMENT.md for the automatic approval review blocker and exact handoff.
+**Publication status:** Implementation and fixtures published to canonical main following explicit user approval. Deployment and live receipts, exact source readback, final state, hash verification and screenshots are published in evidence/. No outstanding browser handoff remains.
+
+## Copy-ready contribution notes (under 1,000 characters)
+
+ReproBond is a scientific replication bounty Intelligent Contract. Sponsors fund and lock the hypothesis, methodology, deviations and evidence requirements. Researcher-bound manifests prevent copied evidence from claiming another researcher’s reward. Validators independently re-fetch commit-pinned public evidence, authenticate SHA-256/length exactly, and reproduce qualitative methodology review. REPLICATED and FAILED_TO_REPLICATE qualify equally; invalid/inconclusive work earns no reward. Deterministic rules enforce ordering, deadlines, bonds, credits, one-time withdrawal and timeout refunds. 58 SDK-backed tests and official GenVM checks pass. Live Studio Full Consensus verified a synthetic negative replication (methodology 90, quality 85), a funded 1 GEN award, finalized withdrawal and child transfer, recipient balance 1 GEN, and zero remaining credit/escrow. Exact deployed source matches GitHub. Studio GEN is simulated; fixtures are educational, not real laboratory evidence.

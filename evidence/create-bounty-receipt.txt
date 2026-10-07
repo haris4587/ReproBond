@@ -1,0 +1,54 @@
+- dialog "Transaction Method Call 6 minutes ago":
+  - button [active]:
+  - heading "Transaction Method Call 6 minutes ago" [level=3]:
+    - generic: Transaction Method Call
+    - generic: 6 minutes ago
+  - text: "0xb4236730cec819139cc05b7a8c36ae5732e661fe62db897470416d0ccbd3b68e"
+  - button:
+  - generic: Execution
+  - generic: "Status:"
+  - generic: FINALIZED
+  - generic: "Result:"
+  - generic: SUCCESS
+  - generic: Input
+  - generic: "{\"args\":[\"{\\\"title\\\":\\\"Synthetic pendulum replication demonstration\\\",\\\"paper\\\":{\\\"url\\\":\\\"https://raw.githubusercontent.com/haris4587/ReproBond/de0670da4f5b36769e5698157be9a5aa060da2a7/evidence/fixtures/original.md\\\",\\\"sha256\\\":\\\"896a1d020b86bec6457ef0fdfed54f90288b6f0a08123d0815f29e9721561a4d\\\",\\\"bytes\\\":775},\\\"hypothesis\\\":\\\"Mean period between 1.90 and 2.10 seconds\\\",\\\"protocol\\\":\\\"Three trials, ten complete oscillations per trial\\\",\\\"methodology\\\":\\\"1.00 metre string; 5 degree angle; manual stopwatch. This bounty explicitly evaluates synthetic educational records.\\\",\\\"allowed_deviations\\\":\\\"Manual stopwatch and length uncertainty up to 1 cm\\\",\\\"disallowed_deviations\\\":\\\"Different string length or large release angle\\\",\\\"report_fields\\\":\\\"Apparatus, length, angle, timing method, all three durations, mean period, deviations, conclusion and limitations\\\",\\\"minimum_evidence\\\":\\\"One complete synthetic report with raw timings and limitations. Synthetic values are accepted for this educational bounty; video and real laboratory certification are not required.\\\"}\",1791399000,0,1,]\"method\":\"create_bounty\"}"
+  - generic: Output
+  - generic: "0"
+  - generic: Equivalence Principles Output
+  - generic: "Equivalence Principle #0:"
+  - generic: "[{\"authenticated\":true\"bytes\":775\"sha256\":\"896a1d020b86bec6457ef0fdfed54f90288b6f0a08123d0815f29e9721561a4d\"\"url\":\"https://raw.githubusercontent.com/haris4587/ReproBond/de0670da4f5b36769e5698157be9a5aa060da2a7/evidence/fixtures/original.md\"},]"
+  - generic: Consensus History
+  - generic: Accepted
+  - generic: PENDING
+  - generic: →
+  - generic: PROPOSING
+  - generic: →
+  - generic: COMMITTING
+  - generic: →
+  - generic: REVEALING
+  - generic: →
+  - generic: ACCEPTED
+  - generic: Validator Set
+  - generic: "0x36728d2a123aB444E603EE5b2ad17d18Bb193557"
+  - generic: llm-router / policy:prd-grok
+  - generic: SUCCESS
+  - generic: "0xE6BD8050758CB15fC88387223E31Ae2708B119dC"
+  - generic: llm-router / policy:prd-minimax
+  - generic: SUCCESS
+  - text: Agree
+  - generic: "0x3E5ee2507cc167C9925Bf10c67D7986581112024"
+  - generic: llm-router / policy:prd-gemini
+  - generic: SUCCESS
+  - text: Agree
+  - generic: "0xec2Fb79cd12255Eb34886CEd7332f27B98DEe658"
+  - generic: ERROR
+  - text: Idle
+  - generic: Validator execution cancelled after quorum
+  - generic: "0x14402D49f317CE1a2F35BAE01b1804A2A9703dCb"
+  - generic: openrouter / anthropic/claude-sonnet-4.6
+  - generic: SUCCESS
+  - text: Agree
+  - generic: Full Transaction Data
+  - text: "{"
+  - generic: ...
+  - text: "}"

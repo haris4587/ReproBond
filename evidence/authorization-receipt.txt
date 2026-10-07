@@ -1,0 +1,45 @@
+Transaction Method Call
+3 minutes ago
+0xfff5c2e9c8806ffe9aee47f58bb42307f6616844754c58b55fa1dc73a2e09b18
+Execution
+Status:
+FINALIZED
+Result:
+SUCCESS
+Input
+{"args":[0,"0x5fadd4bfe32A7aF03a405670fD4655EdaF2c67E3","[{\"url\":\"https://raw.githubusercontent.com/haris4587/ReproBond/de0670da4f5b36769e5698157be9a5aa060da2a7/evidence/fixtures/negative-replication.md\",\"sha256\":\"424db95a9b5b86e5190d13430124c77089755ca655ca6b6b9b52067c0ef10401\",\"bytes\":793}]",]"method":"authorize_package"}
+Output
+"eb570740708d7b0164726bd022b3806b293abb618ca3402d274597def0f1e4f5"
+Consensus History
+Accepted
+PENDING
+→
+PROPOSING
+→
+COMMITTING
+→
+REVEALING
+→
+ACCEPTED
+Validator Set
+0x5310dcF075E0BD47d29B8ec6581F736C767f54D2
+llm-router / policy:prd-kimi
+SUCCESS
+0xacc2459F341D7a887bcA8FAA62F1EC9378d4Bc67
+llm-router / policy:prd-sonnet
+SUCCESS
+Agree
+0x90402341F0B0e97b23023c0a87de957FB7148E0F
+llm-router / policy:prd-gemini
+SUCCESS
+Agree
+0x76c25AFC12c75485703cCFfd0083AA6201455B25
+ERROR
+Idle
+Validator execution cancelled after quorum
+0xcE1d6bBB36B744536153966B4DD42276f5ADd0F8
+llm-router / policy:prd-sonnet
+SUCCESS
+Agree
+Full Transaction Data
+{...}

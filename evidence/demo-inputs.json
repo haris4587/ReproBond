@@ -6,6 +6,8 @@
   "bond": 0,
   "source_limit": 1,
   "studio_value_input": "1",
-  "value_units": "UI label GEN, integer required; actual on-chain value must be verified in receipt",
-  "status": "prepared, not submitted"
+  "value_units": "Studio value input is integer GEN; input 1 produced reward 1000000000000000000 wei",
+  "status": "executed and finalized",
+  "researcher": "0x5fadd4bfe32A7aF03a405670fD4655EdaF2c67E3",
+  "bounty_id": 0
 }

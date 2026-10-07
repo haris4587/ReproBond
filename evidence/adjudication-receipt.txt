@@ -1,0 +1,51 @@
+Transaction Method Call
+1 minute ago
+0x5c883f2ff150cb72d3c8f33d2828e4b336318695fe092ec9cc2b74c497a4d40e
+Execution
+Status:
+FINALIZED
+Result:
+SUCCESS
+Input
+{"args":[0,]"method":"adjudicate_next"}
+Output
+"FAILED_TO_REPLICATE"
+Equivalence Principles Output
+Equivalence Principle #0:
+[{"authenticated":true"bytes":775"sha256":"896a1d020b86bec6457ef0fdfed54f90288b6f0a08123d0815f29e9721561a4d""url":"https://raw.githubusercontent.com/haris4587/ReproBond/de0670da4f5b36769e5698157be9a5aa060da2a7/evidence/fixtures/original.md"},{"authenticated":true"bytes":793"sha256":"424db95a9b5b86e5190d13430124c77089755ca655ca6b6b9b52067c0ef10401""url":"https://raw.githubusercontent.com/haris4587/ReproBond/de0670da4f5b36769e5698157be9a5aa060da2a7/evidence/fixtures/negative-replication.md"},]
+Equivalence Principle #1:
+{"citations":["https://raw.githubusercontent.com/haris4587/ReproBond/de0670da4f5b36769e5698157be9a5aa060da2a7/evidence/fixtures/original.md","https://raw.githubusercontent.com/haris4587/ReproBond/de0670da4f5b36769e5698157be9a5aa060da2a7/evidence/fixtures/negative-replication.md",]"evidence_quality_score":85"material_deviations":[]"methodology_score":90"outcome":"FAILED_TO_REPLICATE""reasoning":"The replication report adheres strictly to the locked methodology: string length 1.00 m (±0.01 m), 5-degree release angle, manual stopwatch, and three trials of ten oscillations each. No material deviations are observed. The mean period of 2.30 s falls outside the prespecified hypothesis range (1.90–2.10 s), constituting a valid negative replication. Evidence quality is high due to complete reporting of raw timings, methodology, and limitations, though synthetic data lacks real-world certification. Methodology score reflects full compliance with protocol requirements."}
+Consensus History
+Accepted
+PENDING
+→
+PROPOSING
+→
+COMMITTING
+→
+REVEALING
+→
+ACCEPTED
+Validator Set
+0x76c25AFC12c75485703cCFfd0083AA6201455B25
+llm-router / policy:prd-mistral
+SUCCESS
+Disagree
+0x3D83ab507785b95ca5C208bEc80CCe3D5ca98100
+llm-router / policy:prd-gpt-5-4
+SUCCESS
+Agree
+0x6737ca1d6BDF8b7C4f19143E2D55581Ca64eb7C3
+llm-router / policy:prd-qwen
+SUCCESS
+Agree
+0xDB1c35c1f05d885999b8f13e5735307BcC16Be88
+openrouter / openai/gpt-5.4
+SUCCESS
+Agree
+0x5310dcF075E0BD47d29B8ec6581F736C767f54D2
+ERROR
+Idle
+Validator execution cancelled after quorum
+Full Transaction Data
+{...}

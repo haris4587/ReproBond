@@ -1,0 +1,159 @@
+- navigation:
+  - link "GenLayer Logo GenLayer Studio Explorer":
+    - /url: /
+    - img "GenLayer Logo"
+    - generic: GenLayer Studio Explorer
+  - link "Dashboard":
+    - /url: /
+    - generic: Dashboard
+  - link "Transactions":
+    - /url: /txs
+    - generic: Transactions
+  - link "Validators":
+    - /url: /validators
+    - generic: Validators
+  - link "Contracts":
+    - /url: /contracts
+    - generic: Contracts
+  - link "Providers":
+    - /url: /providers
+    - generic: Providers
+  - button "Search... ⌘K":
+    - generic: Search...
+    - generic: ⌘K
+  - button "Toggle theme":
+    - generic: Toggle theme
+- generic: "Transactions: 878,588"
+- generic: "Validators: 20"
+- generic: "Contracts: 156,651"
+- generic: Connected
+- main:
+  - link "Back to dashboard":
+    - /url: /
+    - text: Back to dashboard
+  - heading "Account" [level=1]
+  - code: "0x5fadd4bfe32A7aF03a405670fD4655EdaF2c67E3"
+  - button "Copy to clipboard":
+  - paragraph: Balance
+  - paragraph: 1 GEN
+  - paragraph: Transactions
+  - paragraph: "4"
+  - paragraph: First Tx
+  - paragraph: 7 minutes ago
+  - paragraph: Latest Tx
+  - paragraph: 1 minute ago
+  - tablist:
+    - tab "Transactions (4)" [selected]:
+      - text: Transactions (4)
+  - tabpanel "Transactions (4)":
+    - generic: Latest 4 from a total of 4 transactions
+    - table:
+      - rowgroup:
+        - row "Hash Type Status From To Method GenVM Result Consensus Result Time":
+          - columnheader "Hash"
+          - columnheader "Type"
+          - columnheader "Status":
+            - text: Status
+          - columnheader
+          - columnheader "From"
+          - columnheader "To"
+          - columnheader "Method"
+          - columnheader "GenVM Result":
+            - text: GenVM Result
+          - columnheader "Consensus Result":
+            - text: Consensus Result
+          - columnheader "Time"
+      - rowgroup:
+        - row "0x7555160b...a88de972 Copy to clipboard Send FINALIZED IN 0x3388D5...fE4aA2 Copy to clipboard 0x5fadd4...2c67E3 Copy to clipboard - - - 1 minute ago":
+          - cell "0x7555160b...a88de972 Copy to clipboard":
+            - link "0x7555160b...a88de972":
+              - /url: /tx/0x7555160b48454abf86b2b328fe34a3b1cf7006f962d06675698f3e32a88de972
+            - button "Copy to clipboard":
+          - cell "Send":
+            - generic: Send
+          - cell "FINALIZED":
+            - generic: FINALIZED
+          - cell "IN":
+            - generic: IN
+          - cell "0x3388D5...fE4aA2 Copy to clipboard":
+            - link "0x3388D5...fE4aA2":
+              - /url: /address/0x3388D50Be10c907e55382C798783DB4012fE4aA2
+            - button "Copy to clipboard":
+          - cell "0x5fadd4...2c67E3 Copy to clipboard":
+            - link "0x5fadd4...2c67E3":
+              - /url: /address/0x5fadd4bfe32A7aF03a405670fD4655EdaF2c67E3
+            - button "Copy to clipboard":
+          - cell "-"
+          - cell "-"
+          - cell "-"
+          - cell "1 minute ago"
+        - row "0xea648c87...b358caf7 Copy to clipboard Call FINALIZED OUT 0x5fadd4...2c67E3 Copy to clipboard 0x3388D5...fE4aA2 Copy to clipboard withdraw SUCCESS Accepted 2 minutes ago":
+          - cell "0xea648c87...b358caf7 Copy to clipboard":
+            - link "0xea648c87...b358caf7":
+              - /url: /tx/0xea648c87d629ab5042a7ee5b366fc1e93cb432f0f9f322dc66f33693b358caf7
+            - button "Copy to clipboard":
+          - cell "Call":
+            - generic: Call
+          - cell "FINALIZED":
+            - generic: FINALIZED
+          - cell "OUT":
+            - generic: OUT
+          - cell "0x5fadd4...2c67E3 Copy to clipboard":
+            - link "0x5fadd4...2c67E3":
+              - /url: /address/0x5fadd4bfe32A7aF03a405670fD4655EdaF2c67E3
+            - button "Copy to clipboard":
+          - cell "0x3388D5...fE4aA2 Copy to clipboard":
+            - link "0x3388D5...fE4aA2":
+              - /url: /address/0x3388D50Be10c907e55382C798783DB4012fE4aA2
+            - button "Copy to clipboard":
+          - cell "withdraw"
+          - cell "SUCCESS"
+          - cell "Accepted"
+          - cell "2 minutes ago"
+        - row "0x5c883f2f...97a4d40e Copy to clipboard Call FINALIZED OUT 0x5fadd4...2c67E3 Copy to clipboard 0x3388D5...fE4aA2 Copy to clipboard adjudicate_next SUCCESS Accepted 6 minutes ago":
+          - cell "0x5c883f2f...97a4d40e Copy to clipboard":
+            - link "0x5c883f2f...97a4d40e":
+              - /url: /tx/0x5c883f2ff150cb72d3c8f33d2828e4b336318695fe092ec9cc2b74c497a4d40e
+            - button "Copy to clipboard":
+          - cell "Call":
+            - generic: Call
+          - cell "FINALIZED":
+            - generic: FINALIZED
+          - cell "OUT":
+            - generic: OUT
+          - cell "0x5fadd4...2c67E3 Copy to clipboard":
+            - link "0x5fadd4...2c67E3":
+              - /url: /address/0x5fadd4bfe32A7aF03a405670fD4655EdaF2c67E3
+            - button "Copy to clipboard":
+          - cell "0x3388D5...fE4aA2 Copy to clipboard":
+            - link "0x3388D5...fE4aA2":
+              - /url: /address/0x3388D50Be10c907e55382C798783DB4012fE4aA2
+            - button "Copy to clipboard":
+          - cell "adjudicate_next"
+          - cell "SUCCESS"
+          - cell "Accepted"
+          - cell "6 minutes ago"
+        - row "0xe38de343...778b8d86 Copy to clipboard Call FINALIZED OUT 0x5fadd4...2c67E3 Copy to clipboard 0x3388D5...fE4aA2 Copy to clipboard submit SUCCESS Accepted 7 minutes ago":
+          - cell "0xe38de343...778b8d86 Copy to clipboard":
+            - link "0xe38de343...778b8d86":
+              - /url: /tx/0xe38de343ca9a7b314154dc148be8534a275831f0315a64220942503f778b8d86
+            - button "Copy to clipboard":
+          - cell "Call":
+            - generic: Call
+          - cell "FINALIZED":
+            - generic: FINALIZED
+          - cell "OUT":
+            - generic: OUT
+          - cell "0x5fadd4...2c67E3 Copy to clipboard":
+            - link "0x5fadd4...2c67E3":
+              - /url: /address/0x5fadd4bfe32A7aF03a405670fD4655EdaF2c67E3
+            - button "Copy to clipboard":
+          - cell "0x3388D5...fE4aA2 Copy to clipboard":
+            - link "0x3388D5...fE4aA2":
+              - /url: /address/0x3388D50Be10c907e55382C798783DB4012fE4aA2
+            - button "Copy to clipboard":
+          - cell "submit"
+          - cell "SUCCESS"
+          - cell "Accepted"
+          - cell "7 minutes ago"
+- alert

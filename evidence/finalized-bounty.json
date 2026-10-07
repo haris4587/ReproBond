@@ -1,0 +1,84 @@
+{
+  "authorizations": {
+    "eb570740708d7b0164726bd022b3806b293abb618ca3402d274597def0f1e4f5": {
+      "manifest": [
+        {
+          "bytes": 793,
+          "sha256": "424db95a9b5b86e5190d13430124c77089755ca655ca6b6b9b52067c0ef10401",
+          "url": "https://raw.githubusercontent.com/haris4587/ReproBond/de0670da4f5b36769e5698157be9a5aa060da2a7/evidence/fixtures/negative-replication.md"
+        }
+      ],
+      "researcher": "0x5fadd4bfe32A7aF03a405670fD4655EdaF2c67E3",
+      "used": true
+    }
+  },
+  "bond": 0,
+  "cursor": 1,
+  "deadline": 1791399000,
+  "policy": "ReproBond/1",
+  "reward": 1000000000000000000,
+  "settle_by": 1791485400,
+  "source_limit": 1,
+  "sponsor": "0x416F700cC2c738D76E8Cd759d6293b98B820B0A0",
+  "status": "AWARDED",
+  "submissions": [
+    {
+      "bond_remaining": 0,
+      "decision_hash": "e013e95075c3c06de585b363d17a03f11885151e945fcce75cb11517e4e54122",
+      "id": 0,
+      "manifest": [
+        {
+          "bytes": 793,
+          "sha256": "424db95a9b5b86e5190d13430124c77089755ca655ca6b6b9b52067c0ef10401",
+          "url": "https://raw.githubusercontent.com/haris4587/ReproBond/de0670da4f5b36769e5698157be9a5aa060da2a7/evidence/fixtures/negative-replication.md"
+        }
+      ],
+      "package_hash": "eb570740708d7b0164726bd022b3806b293abb618ca3402d274597def0f1e4f5",
+      "researcher": "0x5fadd4bfe32A7aF03a405670fD4655EdaF2c67E3",
+      "time": 1791386224,
+      "verdict": {
+        "authenticated_manifest": [
+          {
+            "authenticated": true,
+            "bytes": 775,
+            "sha256": "896a1d020b86bec6457ef0fdfed54f90288b6f0a08123d0815f29e9721561a4d",
+            "url": "https://raw.githubusercontent.com/haris4587/ReproBond/de0670da4f5b36769e5698157be9a5aa060da2a7/evidence/fixtures/original.md"
+          },
+          {
+            "authenticated": true,
+            "bytes": 793,
+            "sha256": "424db95a9b5b86e5190d13430124c77089755ca655ca6b6b9b52067c0ef10401",
+            "url": "https://raw.githubusercontent.com/haris4587/ReproBond/de0670da4f5b36769e5698157be9a5aa060da2a7/evidence/fixtures/negative-replication.md"
+          }
+        ],
+        "citations": [
+          "https://raw.githubusercontent.com/haris4587/ReproBond/de0670da4f5b36769e5698157be9a5aa060da2a7/evidence/fixtures/original.md",
+          "https://raw.githubusercontent.com/haris4587/ReproBond/de0670da4f5b36769e5698157be9a5aa060da2a7/evidence/fixtures/negative-replication.md"
+        ],
+        "evidence_quality_score": 85,
+        "material_deviations": [],
+        "methodology_score": 90,
+        "outcome": "FAILED_TO_REPLICATE",
+        "policy": "ReproBond/1",
+        "reasoning": "The replication report adheres strictly to the locked methodology: string length 1.00 m (±0.01 m), 5-degree release angle, manual stopwatch, and three trials of ten oscillations each. No material deviations are observed. The mean period of 2.30 s falls outside the prespecified hypothesis range (1.90–2.10 s), constituting a valid negative replication. Evidence quality is high due to complete reporting of raw timings, methodology, and limitations, though synthetic data lacks real-world certification. Methodology score reflects full compliance with protocol requirements."
+      }
+    }
+  ],
+  "terms": {
+    "allowed_deviations": "Manual stopwatch and length uncertainty up to 1 cm",
+    "disallowed_deviations": "Different string length or large release angle",
+    "hypothesis": "Mean period between 1.90 and 2.10 seconds",
+    "methodology": "1.00 metre string; 5 degree angle; manual stopwatch. This bounty explicitly evaluates synthetic educational records.",
+    "minimum_evidence": "One complete synthetic report with raw timings and limitations. Synthetic values are accepted for this educational bounty; video and real laboratory certification are not required.",
+    "paper": {
+      "bytes": 775,
+      "sha256": "896a1d020b86bec6457ef0fdfed54f90288b6f0a08123d0815f29e9721561a4d",
+      "url": "https://raw.githubusercontent.com/haris4587/ReproBond/de0670da4f5b36769e5698157be9a5aa060da2a7/evidence/fixtures/original.md"
+    },
+    "protocol": "Three trials, ten complete oscillations per trial",
+    "report_fields": "Apparatus, length, angle, timing method, all three durations, mean period, deviations, conclusion and limitations",
+    "title": "Synthetic pendulum replication demonstration"
+  },
+  "terms_hash": "02da966ff2daddc750470d69f017df3d2766009d4041cc4b2d93b81abbe10eae",
+  "winner": 0
+}

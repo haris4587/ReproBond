@@ -1,0 +1,94 @@
+- navigation:
+  - link "GenLayer Logo GenLayer Studio Explorer":
+    - /url: /
+    - img "GenLayer Logo"
+    - generic: GenLayer Studio Explorer
+  - link "Dashboard":
+    - /url: /
+    - generic: Dashboard
+  - link "Transactions":
+    - /url: /txs
+    - generic: Transactions
+  - link "Validators":
+    - /url: /validators
+    - generic: Validators
+  - link "Contracts":
+    - /url: /contracts
+    - generic: Contracts
+  - link "Providers":
+    - /url: /providers
+    - generic: Providers
+  - button "Search... ⌘K":
+    - generic: Search...
+    - generic: ⌘K
+  - button "Toggle theme":
+    - generic: Toggle theme
+- generic: "Transactions: 878,588"
+- generic: "Validators: 20"
+- generic: "Contracts: 156,651"
+- generic: Connected
+- main:
+  - link "Back to transactions":
+    - /url: /txs
+    - text: Back to transactions
+  - heading "Transaction Details" [level=1]
+  - code: "0x7555160b48454abf86b2b328fe34a3b1cf7006f962d06675698f3e32a88de972"
+  - button "Copy to clipboard":
+  - generic: FINALIZED
+  - generic: Send
+  - tablist:
+    - tab "Overview" [selected]:
+      - text: Overview
+    - tab "Monitoring":
+      - text: Monitoring
+    - tab "Consensus":
+      - text: Consensus
+    - tab "Data":
+      - text: Data
+    - tab "Related (1)":
+      - text: Related (1)
+  - tabpanel "Overview":
+    - generic: Hash
+    - generic: "0x7555160b48454abf86b2b328fe34a3b1cf7006f962d06675698f3e32a88de972"
+    - button "Copy to clipboard":
+    - generic: Status
+    - generic: FINALIZED
+    - generic: Type
+    - generic: Send
+    - generic: From
+    - link "0x3388D50Be10c907e55382C798783DB4012fE4aA2":
+      - /url: /address/0x3388D50Be10c907e55382C798783DB4012fE4aA2
+    - button "Copy to clipboard":
+    - generic: To
+    - link "0x5fadd4bfe32A7aF03a405670fD4655EdaF2c67E3":
+      - /url: /address/0x5fadd4bfe32A7aF03a405670fD4655EdaF2c67E3
+    - button "Copy to clipboard":
+    - generic: Value
+    - generic: 1 GEN
+    - generic: Nonce
+    - generic: "0"
+    - generic: Gas Limit
+    - generic: "-"
+    - generic: Created At
+    - generic: Oct 7, 2026, 8:52:41 PM
+    - generic: Execution Mode
+    - generic: Normal
+    - generic: Rotation Count
+    - generic: "0"
+    - generic: Initial Validators
+    - generic: "-"
+    - generic: Consensus Result
+    - generic: "-"
+    - img "Pending — reached":
+    - generic: Pending
+    - img "Proposing — reached":
+    - generic: Proposing
+    - img "Committing — reached":
+    - generic: Committing
+    - img "Revealing — reached":
+    - generic: Revealing
+    - img "Accepted — reached":
+    - generic: Accepted
+    - img "Finalized — reached"
+    - generic: Finalized
+- alert
