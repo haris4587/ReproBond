@@ -6,11 +6,20 @@ Source uses GenVM v0.2.16 and the runner advertised by the stable Studio templat
 
 ## Status
 
-Canonical source and fixture commit (local, not pushed): `57f16921191fd9d1f49ea8fed64b01f820134356`.
+Canonical published source and fixture commit: `de0670da4f5b36769e5698157be9a5aa060da2a7`.
 Source SHA-256: `614795a209d50e4e6d8abb716d474f56e6439bb0ea9121d8b43346dced452668`.
-Deployment transaction/address: not deployed.
-Full Consensus live test: not yet executed.
-Publication is blocked: automatic approval review rejected the attempted push to canonical main because the attached brief was not treated as trusted end-user authorization for publication. GitHub was read back and still contains only the initialization README, commit `1c0b30eb1e7f65f9c343b7367b425cac70ae9e1c`. The implementation was not pushed. No deployment or live consensus claim is made. Publish the source after explicit user approval, then perform the procedure below and update records from finalized receipts.
+Contract: `0x3388D50Be10c907e55382C798783DB4012fE4aA2`.
+Sponsor built-in Studio account: `0x416F700cC2c738D76E8Cd759d6293b98B820B0A0`.
+Deployment: [finalized receipt](https://explorer-studio.genlayer.com/tx/0x6c5520e612d5b641ec7bb6b71f479ca3d6ae26611a7257e35dec1e4dcab069ec).
+Explorer: [contract](https://explorer-studio.genlayer.com/address/0x3388D50Be10c907e55382C798783DB4012fE4aA2).
+
+Deployment was executed in Normal (Full Consensus) mode. Explorer readback shows FINALIZED, GenVM SUCCESS, consensus Accepted, five initial validators, rotation count zero. Explorer Code readback was saved as `evidence/deployed-source.py` and compared byte-for-byte with the published source: identical, 17,323 bytes. Finalized accounting is all zero; no funded bounty exists yet.
+
+## Remaining live verification blocker
+
+The built-in faucet credited the sponsor 10 simulated GEN. The prepared fractional input `0.01` failed in Studio before transaction submission with: `The number 0.01 cannot be converted to a BigInt because it is not an integer`. Automatic approval review then rejected the integer retry as a changed consequential payable amount despite the user's broad approval and official documentation confirming simulated Studio balances. No alternate transaction path was used. The form is prepared with integer value input `1`, bond `0`, source limit `1`, synthetic fixture terms, and deadline `1791399000` (2026-10-07 18:50 UTC). Actual value units must be checked from the receipt: the UI label is GEN, but its integer conversion requires verification.
+
+The user must perform the final Send Transaction click in the prepared browser. If the deadline has passed, replace it with Unix seconds at least 60 seconds and at most 90 days ahead. Then verify finalized creation, authorize a distinct built-in researcher, submit, adjudicate in Full Consensus, and verify credit, withdrawal emission and actual recipient delivery. No live verdict, funded escrow, reward or payout is claimed. Studio's documentation says balances are simulated and that no EVM layer or ghost contracts exist there; external payout behavior must be observed, not inferred from local SDK tests.
 
 Source remains byte-identical in subsequent documentation commits. The source commit identifies immutable contract/fixture contents; an evidence-only commit can record deployment without claiming to be the earlier source commit.
 

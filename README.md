@@ -59,3 +59,5 @@ Conservation: `deposited = escrow + credits + withdrawn` (withdrawn denotes emit
 ## Deployment and evidence
 
 See [DEPLOYMENT.md](DEPLOYMENT.md) and [EVIDENCE.md](EVIDENCE.md) for exact commit/source binding, transaction records and honest live verification status. Fixture reports are synthetic educational data and must not be presented as real laboratory research.
+
+Deployment verified: [contract explorer](https://explorer-studio.genlayer.com/address/0x3388D50Be10c907e55382C798783DB4012fE4aA2), Normal Full Consensus, FINALIZED / SUCCESS. Published source commit `de0670da4f5b36769e5698157be9a5aa060da2a7` matches deployed Code readback byte-for-byte. The live funded bounty and payout demo remain pending because automatic approval review blocked the payable step; see DEPLOYMENT.md.

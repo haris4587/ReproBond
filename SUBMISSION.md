@@ -10,17 +10,23 @@
 
 **Canonical repository:** https://github.com/haris4587/ReproBond
 
-**Contract address / Explorer / deployment transaction / live transactions:** unavailable — deployment and live test not performed.
+**Contract address:** `0x3388D50Be10c907e55382C798783DB4012fE4aA2`.
 
-**Source commit:** `57f16921191fd9d1f49ea8fed64b01f820134356` locally; not pushed, not deployed.
+**Explorer:** https://explorer-studio.genlayer.com/address/0x3388D50Be10c907e55382C798783DB4012fE4aA2
+
+**Deployment transaction:** `0x6c5520e612d5b641ec7bb6b71f479ca3d6ae26611a7257e35dec1e4dcab069ec` — FINALIZED / SUCCESS, Normal (Full Consensus), five validators.
+
+**Live bounty transactions:** absent; automatic approval review blocked the payable creation step.
+
+**Source commit:** `de0670da4f5b36769e5698157be9a5aa060da2a7` — published on canonical main, deployed source readback byte-identical.
 
 **Canonical source SHA-256:** `614795a209d50e4e6d8abb716d474f56e6439bb0ea9121d8b43346dced452668`.
 
 **Local verification:** 58 SDK-backed tests passed; official GenVM lint, validation and SDK typecheck passed.
 
-**Live verification:** pending; do not claim Full Consensus or payout delivery.
+**Live verification:** Full Consensus deployment verified; funded bounty, qualitative adjudication, reward credits and payout delivery remain pending. Not ready for final submission.
 
-**Evidence:** local test log, GenVM check log and synthetic original/positive/negative reports in `evidence/`. Public commit-pinned fixture URLs become available only after the source commit is pushed. `scripts/prepare_demo.py` produces their exact inputs.
+**Evidence:** local test log, GenVM check log and synthetic original/positive/negative reports in `evidence/`. Public commit-pinned fixture URLs are published at the source commit. `scripts/prepare_demo.py` produces their exact inputs.
 
 **Why GenLayer is central:** scientific methodology comparison requires qualitative interpretation of locked protocol and evidence; validators independently reproduce that judgment. Reward recipients and accounting are deterministic and cannot be selected by the LLM.
 
@@ -39,4 +45,4 @@
 - `requirements-dev.txt`
 - `README.md`, `SECURITY.md`, `DEPLOYMENT.md`, `EVIDENCE.md`, `SUBMISSION.md`
 
-**Publication status:** Only the initialization README was confirmed on GitHub. Automatic approval review rejected publishing the implementation to default main because the uploaded brief was not recognized as trusted publication authorization. Explicit user approval is required before retrying the push. No alternative publication path has been used.
+**Publication status:** Implementation and fixtures published to canonical main following explicit user approval. Deployment receipt, exact source readback and pending demo inputs are recorded in evidence/. Screenshots are supplied in the conversation because GitHub binary upload failed. See DEPLOYMENT.md for the automatic approval review blocker and exact handoff.

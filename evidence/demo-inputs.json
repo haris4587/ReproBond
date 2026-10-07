@@ -1,0 +1,11 @@
+{
+  "source_commit": "de0670da4f5b36769e5698157be9a5aa060da2a7",
+  "terms_json": "{\"title\":\"Synthetic pendulum replication demonstration\",\"paper\":{\"url\":\"https://raw.githubusercontent.com/haris4587/ReproBond/de0670da4f5b36769e5698157be9a5aa060da2a7/evidence/fixtures/original.md\",\"sha256\":\"896a1d020b86bec6457ef0fdfed54f90288b6f0a08123d0815f29e9721561a4d\",\"bytes\":775},\"hypothesis\":\"Mean period between 1.90 and 2.10 seconds\",\"protocol\":\"Three trials, ten complete oscillations per trial\",\"methodology\":\"1.00 metre string; 5 degree angle; manual stopwatch. This bounty explicitly evaluates synthetic educational records.\",\"allowed_deviations\":\"Manual stopwatch and length uncertainty up to 1 cm\",\"disallowed_deviations\":\"Different string length or large release angle\",\"report_fields\":\"Apparatus, length, angle, timing method, all three durations, mean period, deviations, conclusion and limitations\",\"minimum_evidence\":\"One complete synthetic report with raw timings and limitations. Synthetic values are accepted for this educational bounty; video and real laboratory certification are not required.\"}",
+  "evidence_json": "[{\"url\":\"https://raw.githubusercontent.com/haris4587/ReproBond/de0670da4f5b36769e5698157be9a5aa060da2a7/evidence/fixtures/negative-replication.md\",\"sha256\":\"424db95a9b5b86e5190d13430124c77089755ca655ca6b6b9b52067c0ef10401\",\"bytes\":793}]",
+  "deadline": 1791399000,
+  "bond": 0,
+  "source_limit": 1,
+  "studio_value_input": "1",
+  "value_units": "UI label GEN, integer required; actual on-chain value must be verified in receipt",
+  "status": "prepared, not submitted"
+}
